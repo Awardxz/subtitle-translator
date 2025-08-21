@@ -2,7 +2,7 @@ const { readSubtitles, writeSubtitles } = require("./subtitleHandler");
 const { getGroqChatCompletion, translateSubtitles } = require("./translator");
 const path = require('path')
 
-
+// Awardxz 
 
 async function main() {
 
