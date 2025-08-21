@@ -2,6 +2,8 @@
 
 A Node.js tool that automatically translates subtitle files (.srt) using AI-powered translation via Groq API.
 
+Note : This Project is Currently Set To Translate from English to Albanian Subtitles. changeable inside translator.js inside AI Prompt
+
 ## Features
 
 - 📁 Read and parse SRT subtitle files
