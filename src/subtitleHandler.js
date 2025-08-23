@@ -1,10 +1,7 @@
 const fs = require('fs').promises;
-const srtParser = require('srt-parser-2');
-const parser = new srtParser.default(); // or new srtParser.SrtParser()
+const srtParser = require('srt-parser-2'); // goated - subtitles package wasn't working
+const parser = new srtParser.default();
 
-// Rest of your code...
-
-// Rest of your code remains the same
 async function readSubtitles(path) {
     console.log("Reading Subtitle:", path);
     try {
