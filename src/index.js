@@ -9,7 +9,7 @@ async function main() {
     
     const engPath = path.join(__dirname, 'subtitles', 'missionENG.srt')
     console.log(`English subtitles path: ${engPath}`)
-    const outputPath = path.join(__dirname, 'subtitles', 'output', 'alb2.srt')
+    const outputPath = path.join(__dirname, 'subtitles', 'output', 'missionALB.srt')
 
     console.log("Reading English Subtitles...")
     const subs = await readSubtitles(engPath)
