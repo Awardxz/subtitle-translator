@@ -2,6 +2,8 @@
 
 A Node.js tool that automatically translates subtitle files (.srt) using AI-powered translation via Groq API.
 
+Note : This Project is Currently Set To Translate from English to Albanian Subtitles. changeable inside translator.js inside AI Prompt
+
 ## Features
 
 - 📁 Read and parse SRT subtitle files
@@ -44,7 +46,7 @@ const engPath = path.join(__dirname, 'subtitles', 'your-subtitle-file.srt')
 ```
 3. Run the translator:
 ```bash
-node src/index.js
+npm run dev
 ```
 4. Find your translated subtitle file in `src/subtitles/output/`
 
@@ -77,7 +79,8 @@ The tool uses intelligent batching to handle API rate limits:
 - Subtitles are processed in batches rather than individually
 - Reduces API calls and improves translation consistency
 - Handles large subtitle files efficiently without hitting rate limits
-- Maintains subtitle timing and sequence integrity
+- Maintains subtitle timing and sequence integrity 
+- Contains 20 Second Delay Per API Call
 
 ## Configuration
 
